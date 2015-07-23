@@ -1,0 +1,72 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fyp.islam"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+         android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+         >
+         <activity android:name="com.fyp.islam.SingleItemView" >
+             
+        </activity>
+        <activity android:name="splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainActivity" android:label="@string/title_activity_main" android:screenOrientation="portrait">
+                         </activity>
+        <activity android:name="Quran_text"
+            android:parentActivityName="com.fyp.islam.MainActivity">
+            
+            </activity>
+        <activity android:name="Sections_List"
+            android:parentActivityName="com.fyp.islam.MainActivity">
+           </activity>
+        <activity android:name="Rodha"
+            android:windowSoftInputMode="stateHidden">
+            
+        </activity>
+        <activity android:name="DarulIfta"
+            android:parentActivityName="com.fyp.islam.MainActivity"
+             android:windowSoftInputMode="stateHidden"
+          >
+            
+        </activity>
+        <activity android:name="Islam"
+            android:parentActivityName="com.fyp.islam.Sections_List"
+            android:windowSoftInputMode="stateHidden">
+            
+        </activity>
+        <activity android:name="Dua"
+            android:parentActivityName="com.fyp.islam.Sections_List"
+             android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="RohaniElaj"
+            android:parentActivityName="com.fyp.islam.MainActivity"
+             android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="Detail"
+            android:parentActivityName="com.fyp.islam.Quran_text"/>
+             
+        <activity android:name="RandomStories"
+            android:parentActivityName="com.fyp.islam.Sections_List"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="Dua_Detail"></activity>
+        <activity android:name="Books"
+            android:parentActivityName="com.fyp.islam.Sections_List"
+         	android:windowSoftInputMode="stateHidden"
+            ></activity>
+        <activity android:name="SixKalmahs"
+            android:parentActivityName="com.fyp.islam.Sections_List"></activity>
+
+    </application>
+
+</manifest>

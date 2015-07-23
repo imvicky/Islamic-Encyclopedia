@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main2"
+    android:columnWidth="140dp"
+    
+    android:horizontalSpacing="10dp"
+    android:numColumns="auto_fit"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="10dp" >
+    
+     <TextView
+        android:id="@+id/List_topics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/rounded"
+        android:text="Stories"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+     
+
+    <TextView
+        android:id="@+id/btn_quran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="72dp"
+        android:background="@drawable/rounded"
+        android:text="Quran"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    
+
+    <TextView
+        android:id="@+id/btn_ilaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="170dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded"
+        android:text="Rohani Elaj"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/btn_ifta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_marginRight="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/rounded"
+        android:text="Darul Ifta"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/b_about"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+    
+   </RelativeLayout>
+
